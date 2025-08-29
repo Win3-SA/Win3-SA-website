@@ -1,0 +1,80 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff;
+  color: #333;
+}
+
+header {
+  background: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+header .logo {
+  height: 60px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: orange;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: orange;
+  color: white;
+}
+
+section {
+  padding: 40px 20px;
+}
+
+footer {
+  text-align: center;
+  background: black;
+  color: white;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+form input, form textarea {
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+form button {
+  background: orange;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+form button:hover {
+  background: black;
+}
